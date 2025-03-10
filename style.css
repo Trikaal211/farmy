@@ -1,0 +1,270 @@
+body{
+    background-color:rgb(182, 139, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+img {
+     
+    height: 100%;
+    width: auto;  
+   overflow: hidden;
+  object-fit: cover; /* इमेज को ऊपर शिफ्ट करना */  
+   
+}
+#po{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align:justify;
+    background-image: url('https://th.bing.com/th/id/OIF.VNs7WsO44rDempTiqk5HnQ?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;  
+    background-clip: text;
+    color: transparent;  
+    display: inline-block;
+
+}
+#m{
+    height: 350;
+    width: 1000px;
+}
+h3{
+    opacity: 0;
+}
+
+#enter {
+    height: 350px;
+    width: 1000px;
+   
+   
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+   
+background-image: url('jjj.jpg.webp');
+
+}
+#paap{
+    background-image: url('https://images.pexels.com/photos/106162/wheat-wheat-spike-wheat-field-cornfield-106162.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;  /* Safari/Chrome ke liye */
+    background-clip: text;
+    color: transparent;  /* Text ko invisible karna zaroori hai */
+}
+
+
+   h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align:justify;
+    background-image: url('https://th.bing.com/th/id/OIF.VNs7WsO44rDempTiqk5HnQ?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;  
+    background-clip: text;
+    color: transparent;  
+    display: inline-block;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align:justify;
+    background-image: url('https://th.bing.com/th/id/OIF.VNs7WsO44rDempTiqk5HnQ?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;  
+    background-clip: text;
+    color: transparent;  
+    display: inline-block;
+    cursor: default;
+}
+#aside1,#aside2,#aside3,#aside4{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    user-select: none;
+    border-radius: 30px;
+    cursor: default;
+    transition: all 1s ease-in-out;
+   
+  
+  background: linear-gradient(to right ,skyblue,white, rgb(79, 217, 79),silver,rgb(228, 201, 50));
+}
+#qot{
+    width: 1000px;
+    background-image: url('l.webp');
+height: 300px;
+display: flex;
+justify-content: space-around;}
+
+
+#qot:hover #aside1,
+#qot:hover #aside2,
+#qot:hover #aside3,
+#qot:hover #aside4{
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+   
+}
+#imj{
+    display: flex;
+   
+}
+#lal{
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+  
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align:justify;
+    background-image: url('https://th.bing.com/th/id/OIP.HfGznkAjlm0TxytAJMhGiAHaHa?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;  
+    background-clip: text;
+    color: transparent;  
+    display: inline-block;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+
+
+.q1,.q2,.q3,.q4{
+    display: inline-block;
+    height: 150px;
+    background-color: wheat;
+    width:300px;
+    opacity: 0;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    content: attr(data-text);
+  
+    
+}
+.q1:active,
+.q2:active,
+.q3:active,
+.q4:active {
+    border: 3px solid white; /* Click करने पर border दिखे */
+    box-shadow: 0px 0px 20px white; /* हल्का glow effect */
+}
+#enter {
+    transition: transform 1s ease-in-out;
+}
+
+#enter:hover {
+    transform: translateY(-100px); /* ऊपर जाएगा */
+}
+#enter:hover .q1,
+#enter:hover .q2,
+#enter:hover .q3,
+#enter:hover .q4 {
+    opacity: 1;
+    transition: all 1s;
+    background: linear-gradient(to right, yellow,wheat,skyblue,red);
+    border-radius: 2px;
+    transform: translateY(20px) scale(1.1); /* नीचे जाएगा और थोड़ा बड़ा होगा */
+    transition: all 0.5s ease-in-out;
+    margin-top: 200px;
+
+   
+}
+
+
+.q1:hover,.q2:hover,.q3:hover,.q4:hover{
+    
+    box-shadow: 4px 10px 7px black;
+    cursor: pointer;
+    transform: scale(1.1); /* नीचे जाएगा और थोड़ा बड़ा होगा */
+    transition: all 0.5s ease-in-out;
+  
+}
+#enter:hover #qot {
+    position: relative;
+    transition: transform 1s ease-in-out;
+}
+#qot{
+    position: relative;
+    transition: transform 1s ease-in-out;
+}
+#bill{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+h4{
+    font-size: large;
+    color: linen;
+}
+h2{
+    position: relative;
+    transition:all 1s ease-in-out;
+}
+#imj {
+    position: relative;
+    width: 200px; /* Fixed Width */
+    height: 200px; /* Fixed Height */
+    perspective: 1000px; /* 3D Effect */
+    overflow: hidden; /* Extra size prevent */
+    display: flex; /* Multiple images side by side */
+    align-items: center;
+    justify-content: center;
+}
+
+#lal {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s linear;
+    transform-style: preserve-3d;
+    transform-origin: center;
+}
+
+#imj::after {
+    content: "Laal Bahadur";  
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;  /* Fixed */
+    height: 100%; /* Fixed */
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+    backface-visibility: hidden; /* Hide back until flipped */
+    transition: transform 0.6s linear;
+}
+
+/* Flip on hover */
+#imj:hover #lal {
+    transform: rotateY(180deg);
+}
+
+#imj:hover::after {
+    transform: rotateY(0deg);
+}
+
+/* Doosri image (#bill) ko waisa hi rakhna */
+#bill {
+    width: 100px; /* Adjust size */
+    height: 100px;
+    margin-left: 20px; /* Space between images */
+}
