@@ -39,7 +39,7 @@ h3{
     height: 350px;
     width: 100%;
    
-   
+   max-width: 1500px;
     position: relative;
     display: flex;
     align-items: center;
