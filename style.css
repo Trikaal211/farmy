@@ -1,3 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Horizontal scrollbar hide karein */
+}
 body{
     background-color:rgb(18, 19, 59);
     display: flex;
