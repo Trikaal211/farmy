@@ -1,11 +1,8 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden; /* Horizontal scrollbar hide karein */
-}
+
 body{
     background-color:rgb(18, 19, 59);
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,10 +41,10 @@ h3{
 }
 
 #enter {
-    height: 350px;
-    width: 100%;
+    height: auto;
+    width: auto;
    
-   max-width: 1500px;
+   
     position: relative;
     display: flex;
     align-items: center;
